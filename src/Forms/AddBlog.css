@@ -21,13 +21,13 @@ form {
   
   input[type="text"] {
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #7e2828;
     border-radius: 4px;
     font-size: 1rem;
   }
   
   button {
-    background-color: #007bff;
+    background-color: #31e0ac;
     color: white;
     padding: 10px 16px;
     border: none;
@@ -38,6 +38,6 @@ form {
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #068769;
   }
   
