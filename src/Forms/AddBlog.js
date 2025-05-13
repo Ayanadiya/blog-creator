@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import './AddBlog.css'
 
 const AddBlog=(props)=>{
     const [imageUrl, setimageUrl]=useState("");
@@ -43,7 +44,7 @@ const AddBlog=(props)=>{
         setDescription("")
     }
     return(
-        <form onSubmit={postBlogHandler}>
+        <form className="form" onSubmit={postBlogHandler}>
             <div>
                 <label htmlFor="imageUrl">Image Url:</label>
                 <input type="text" value={imageUrl} id="imageUrl" name="imageUrl" onChange={imageChangeHandler}/>
